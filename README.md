@@ -1,5 +1,5 @@
 # Chest-GUI
-![logo](icon.png)  
+![logo](./Behavior/pack_icon.png)  
 This is my attempt to create a good way to make chest guis on bedrock edition 
 
 ## Features
