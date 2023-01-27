@@ -1,5 +1,5 @@
 # Chest-GUI
-![logo](icon.png)  
+![logo](./Behavior/pack_icon.png)  
 This is my attempt to create a good way to make chest guis on bedrock edition 
 
 ## Features
@@ -27,7 +27,7 @@ world.events.beforeChat.subscribe((data) => {
 
 ## Layout Creation Examples
 
-Here is a example of how one the many ways to define a simple GUI 
+Here is a example of how one the many ways to define a simple GUI for a more in depth way to create a gui and summon it on a player please look at the examples in the behavior pack's index.js
 
 ```js
 import { Page } from "./chestGUI.js";
