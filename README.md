@@ -1,6 +1,6 @@
 # Chest-GUI
 ![logo](icon.png)  
-This is my attempt to create a good way to make chest guis on bedrock edition 
+This is my attempt to create a good way to make chest guis on bedrock edition and it may be horribly buggy
 
 ## Features
 * Disregards mobile ui players completley (good thing)
