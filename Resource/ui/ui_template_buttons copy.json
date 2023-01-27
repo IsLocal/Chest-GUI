@@ -1,0 +1,71 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+{
+  "namespace": "common_buttons",
+  /////////////////////////////////
+  //
+  //  BUTTON CONTROLS
+  //
+  /////////////////////////////////
+  "dark_text_button@dark_button_assets": {
+    "$button_offset|default": [
+      0,
+      0
+    ],
+    "$button_pressed_offset|default": [
+      0,
+      1
+    ],
+    "$button_text|default": "",
+    "$pressed_alpha|default": 1,
+    "$border_visible": false,
+    // For text bindings
+    "$button_text_binding_type|default": "none",
+    "$button_binding_condition|default": "none",
+    "$button_text_grid_collection_name|default": "",
+    "$button_type_panel": "common_buttons.new_ui_binding_button_label",
+    "$button_state_panel|default": "common_buttons.new_ui_button_panel",
+    // These states are for passing the button state to the button content - do not set these in a parent!
+    "$default_state|default": false,
+    "$hover_state|default": false,
+    "$pressed_state|default": false,
+    "$locked_state|default": false,
+    "controls": [
+      {
+        "default@$button_state_panel": {
+          "$new_ui_button_texture": "$default_button_texture",
+          "$text_color": "$dark_button_default_text_color",
+          "$secondary_text_color": "$dark_button_secondary_default_text_color",
+          "$content_alpha": 0.5,
+          "$border_color": "$dark_border_default_color",
+          "$border_layer": 2,
+          "$default_state": true,
+          "layer": 1,
+          "$border_visible": false
+        }
+      },
+      {
+        "hover@$button_state_panel": {
+          "$new_ui_button_texture": "$hover_button_texture",
+          "$text_color": "$dark_button_hover_text_color",
+          "$secondary_text_color": "$dark_button_secondary_hover_text_color",
+          "$content_alpha": 1,
+          "$border_color": "$dark_border_hover_color",
+          "$border_layer": 4,
+          "$hover_state": true,
+          "layer": 4 // This is several layers higher than default in case two buttons share a border and that shared border needs to turn with with either button hover/press state
+        }
+      }
+    ]
+  },
+  "dark_button_assets@common.button": {
+    "$default_button_texture|default": "textures/ui/hud_tip_text_background",
+    "$hover_button_texture|default": "textures/ui/button_borderless_darkhover",
+    "$pressed_button_texture|default": "textures/ui/button_borderless_darkpressed",
+    "$locked_button_texture|default": "textures/ui/disabledButtonNoBorder",
+    "locked_control": "locked",
+    "$locked_alpha": 1
+  }
+}

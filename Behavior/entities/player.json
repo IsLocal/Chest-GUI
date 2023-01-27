@@ -1,0 +1,1458 @@
+{
+  "format_version": "1.18.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "player:knockback-0": {
+        "minecraft:knockback_resistance": {
+          "value": 0
+        }
+      },
+      "player:knockback-1": {
+        "minecraft:knockback_resistance": {
+          "value": 0.01
+        }
+      },
+      "player:knockback-2": {
+        "minecraft:knockback_resistance": {
+          "value": 0.02
+        }
+      },
+      "player:knockback-3": {
+        "minecraft:knockback_resistance": {
+          "value": 0.03
+        }
+      },
+      "player:knockback-4": {
+        "minecraft:knockback_resistance": {
+          "value": 0.04
+        }
+      },
+      "player:knockback-5": {
+        "minecraft:knockback_resistance": {
+          "value": 0.05
+        }
+      },
+      "player:knockback-6": {
+        "minecraft:knockback_resistance": {
+          "value": 0.06
+        }
+      },
+      "player:knockback-7": {
+        "minecraft:knockback_resistance": {
+          "value": 0.07
+        }
+      },
+      "player:knockback-8": {
+        "minecraft:knockback_resistance": {
+          "value": 0.08
+        }
+      },
+      "player:knockback-9": {
+        "minecraft:knockback_resistance": {
+          "value": 0.09
+        }
+      },
+      "player:knockback-10": {
+        "minecraft:knockback_resistance": {
+          "value": 0.1
+        }
+      },
+      "player:knockback-11": {
+        "minecraft:knockback_resistance": {
+          "value": 0.11
+        }
+      },
+      "player:knockback-12": {
+        "minecraft:knockback_resistance": {
+          "value": 0.12
+        }
+      },
+      "player:knockback-13": {
+        "minecraft:knockback_resistance": {
+          "value": 0.13
+        }
+      },
+      "player:knockback-14": {
+        "minecraft:knockback_resistance": {
+          "value": 0.14
+        }
+      },
+      "player:knockback-15": {
+        "minecraft:knockback_resistance": {
+          "value": 0.15
+        }
+      },
+      "player:knockback-16": {
+        "minecraft:knockback_resistance": {
+          "value": 0.16
+        }
+      },
+      "player:knockback-17": {
+        "minecraft:knockback_resistance": {
+          "value": 0.17
+        }
+      },
+      "player:knockback-18": {
+        "minecraft:knockback_resistance": {
+          "value": 0.18
+        }
+      },
+      "player:knockback-19": {
+        "minecraft:knockback_resistance": {
+          "value": 0.19
+        }
+      },
+      "player:knockback-20": {
+        "minecraft:knockback_resistance": {
+          "value": 0.2
+        }
+      },
+      "player:knockback-21": {
+        "minecraft:knockback_resistance": {
+          "value": 0.21
+        }
+      },
+      "player:knockback-22": {
+        "minecraft:knockback_resistance": {
+          "value": 0.22
+        }
+      },
+      "player:knockback-23": {
+        "minecraft:knockback_resistance": {
+          "value": 0.23
+        }
+      },
+      "player:knockback-24": {
+        "minecraft:knockback_resistance": {
+          "value": 0.24
+        }
+      },
+      "player:knockback-25": {
+        "minecraft:knockback_resistance": {
+          "value": 0.25
+        }
+      },
+      "player:knockback-26": {
+        "minecraft:knockback_resistance": {
+          "value": 0.26
+        }
+      },
+      "player:knockback-27": {
+        "minecraft:knockback_resistance": {
+          "value": 0.27
+        }
+      },
+      "player:knockback-28": {
+        "minecraft:knockback_resistance": {
+          "value": 0.28
+        }
+      },
+      "player:knockback-29": {
+        "minecraft:knockback_resistance": {
+          "value": 0.29
+        }
+      },
+      "player:knockback-30": {
+        "minecraft:knockback_resistance": {
+          "value": 0.3
+        }
+      },
+      "player:knockback-31": {
+        "minecraft:knockback_resistance": {
+          "value": 0.31
+        }
+      },
+      "player:knockback-32": {
+        "minecraft:knockback_resistance": {
+          "value": 0.32
+        }
+      },
+      "player:knockback-33": {
+        "minecraft:knockback_resistance": {
+          "value": 0.33
+        }
+      },
+      "player:knockback-34": {
+        "minecraft:knockback_resistance": {
+          "value": 0.34
+        }
+      },
+      "player:knockback-35": {
+        "minecraft:knockback_resistance": {
+          "value": 0.35
+        }
+      },
+      "player:knockback-36": {
+        "minecraft:knockback_resistance": {
+          "value": 0.36
+        }
+      },
+      "player:knockback-37": {
+        "minecraft:knockback_resistance": {
+          "value": 0.37
+        }
+      },
+      "player:knockback-38": {
+        "minecraft:knockback_resistance": {
+          "value": 0.38
+        }
+      },
+      "player:knockback-39": {
+        "minecraft:knockback_resistance": {
+          "value": 0.39
+        }
+      },
+      "player:knockback-40": {
+        "minecraft:knockback_resistance": {
+          "value": 0.4
+        }
+      },
+      "player:knockback-41": {
+        "minecraft:knockback_resistance": {
+          "value": 0.41
+        }
+      },
+      "player:knockback-42": {
+        "minecraft:knockback_resistance": {
+          "value": 0.42
+        }
+      },
+      "player:knockback-43": {
+        "minecraft:knockback_resistance": {
+          "value": 0.43
+        }
+      },
+      "player:knockback-44": {
+        "minecraft:knockback_resistance": {
+          "value": 0.44
+        }
+      },
+      "player:knockback-45": {
+        "minecraft:knockback_resistance": {
+          "value": 0.45
+        }
+      },
+      "player:knockback-46": {
+        "minecraft:knockback_resistance": {
+          "value": 0.46
+        }
+      },
+      "player:knockback-47": {
+        "minecraft:knockback_resistance": {
+          "value": 0.47
+        }
+      },
+      "player:knockback-48": {
+        "minecraft:knockback_resistance": {
+          "value": 0.48
+        }
+      },
+      "player:knockback-49": {
+        "minecraft:knockback_resistance": {
+          "value": 0.49
+        }
+      },
+      "player:knockback-50": {
+        "minecraft:knockback_resistance": {
+          "value": 0.5
+        }
+      },
+      "player:knockback-51": {
+        "minecraft:knockback_resistance": {
+          "value": 0.51
+        }
+      },
+      "player:knockback-52": {
+        "minecraft:knockback_resistance": {
+          "value": 0.52
+        }
+      },
+      "player:knockback-53": {
+        "minecraft:knockback_resistance": {
+          "value": 0.53
+        }
+      },
+      "player:knockback-54": {
+        "minecraft:knockback_resistance": {
+          "value": 0.54
+        }
+      },
+      "player:knockback-55": {
+        "minecraft:knockback_resistance": {
+          "value": 0.55
+        }
+      },
+      "player:knockback-56": {
+        "minecraft:knockback_resistance": {
+          "value": 0.56
+        }
+      },
+      "player:knockback-57": {
+        "minecraft:knockback_resistance": {
+          "value": 0.57
+        }
+      },
+      "player:knockback-58": {
+        "minecraft:knockback_resistance": {
+          "value": 0.58
+        }
+      },
+      "player:knockback-59": {
+        "minecraft:knockback_resistance": {
+          "value": 0.59
+        }
+      },
+      "player:knockback-60": {
+        "minecraft:knockback_resistance": {
+          "value": 0.6
+        }
+      },
+      "player:knockback-61": {
+        "minecraft:knockback_resistance": {
+          "value": 0.61
+        }
+      },
+      "player:knockback-62": {
+        "minecraft:knockback_resistance": {
+          "value": 0.62
+        }
+      },
+      "player:knockback-63": {
+        "minecraft:knockback_resistance": {
+          "value": 0.63
+        }
+      },
+      "player:knockback-64": {
+        "minecraft:knockback_resistance": {
+          "value": 0.64
+        }
+      },
+      "player:knockback-65": {
+        "minecraft:knockback_resistance": {
+          "value": 0.65
+        }
+      },
+      "player:knockback-66": {
+        "minecraft:knockback_resistance": {
+          "value": 0.66
+        }
+      },
+      "player:knockback-67": {
+        "minecraft:knockback_resistance": {
+          "value": 0.67
+        }
+      },
+      "player:knockback-68": {
+        "minecraft:knockback_resistance": {
+          "value": 0.68
+        }
+      },
+      "player:knockback-69": {
+        "minecraft:knockback_resistance": {
+          "value": 0.69
+        }
+      },
+      "player:knockback-70": {
+        "minecraft:knockback_resistance": {
+          "value": 0.7
+        }
+      },
+      "player:knockback-71": {
+        "minecraft:knockback_resistance": {
+          "value": 0.71
+        }
+      },
+      "player:knockback-72": {
+        "minecraft:knockback_resistance": {
+          "value": 0.72
+        }
+      },
+      "player:knockback-73": {
+        "minecraft:knockback_resistance": {
+          "value": 0.73
+        }
+      },
+      "player:knockback-74": {
+        "minecraft:knockback_resistance": {
+          "value": 0.74
+        }
+      },
+      "player:knockback-75": {
+        "minecraft:knockback_resistance": {
+          "value": 0.75
+        }
+      },
+      "player:knockback-76": {
+        "minecraft:knockback_resistance": {
+          "value": 0.76
+        }
+      },
+      "player:knockback-77": {
+        "minecraft:knockback_resistance": {
+          "value": 0.77
+        }
+      },
+      "player:knockback-78": {
+        "minecraft:knockback_resistance": {
+          "value": 0.78
+        }
+      },
+      "player:knockback-79": {
+        "minecraft:knockback_resistance": {
+          "value": 0.79
+        }
+      },
+      "player:knockback-80": {
+        "minecraft:knockback_resistance": {
+          "value": 0.8
+        }
+      },
+      "player:knockback-81": {
+        "minecraft:knockback_resistance": {
+          "value": 0.81
+        }
+      },
+      "player:knockback-82": {
+        "minecraft:knockback_resistance": {
+          "value": 0.82
+        }
+      },
+      "player:knockback-83": {
+        "minecraft:knockback_resistance": {
+          "value": 0.83
+        }
+      },
+      "player:knockback-84": {
+        "minecraft:knockback_resistance": {
+          "value": 0.84
+        }
+      },
+      "player:knockback-85": {
+        "minecraft:knockback_resistance": {
+          "value": 0.85
+        }
+      },
+      "player:knockback-86": {
+        "minecraft:knockback_resistance": {
+          "value": 0.86
+        }
+      },
+      "player:knockback-87": {
+        "minecraft:knockback_resistance": {
+          "value": 0.87
+        }
+      },
+      "player:knockback-88": {
+        "minecraft:knockback_resistance": {
+          "value": 0.88
+        }
+      },
+      "player:knockback-89": {
+        "minecraft:knockback_resistance": {
+          "value": 0.89
+        }
+      },
+      "player:knockback-90": {
+        "minecraft:knockback_resistance": {
+          "value": 0.9
+        }
+      },
+      "player:knockback-91": {
+        "minecraft:knockback_resistance": {
+          "value": 0.91
+        }
+      },
+      "player:knockback-92": {
+        "minecraft:knockback_resistance": {
+          "value": 0.92
+        }
+      },
+      "player:knockback-93": {
+        "minecraft:knockback_resistance": {
+          "value": 0.93
+        }
+      },
+      "player:knockback-94": {
+        "minecraft:knockback_resistance": {
+          "value": 0.94
+        }
+      },
+      "player:knockback-95": {
+        "minecraft:knockback_resistance": {
+          "value": 0.95
+        }
+      },
+      "player:knockback-96": {
+        "minecraft:knockback_resistance": {
+          "value": 0.96
+        }
+      },
+      "player:knockback-97": {
+        "minecraft:knockback_resistance": {
+          "value": 0.97
+        }
+      },
+      "player:knockback-98": {
+        "minecraft:knockback_resistance": {
+          "value": 0.98
+        }
+      },
+      "player:knockback-99": {
+        "minecraft:knockback_resistance": {
+          "value": 0.99
+        }
+      },
+      "player:knockback-100": {
+        "minecraft:knockback_resistance": {
+          "value": 1
+        }
+      },
+      "is:gui": {
+        "minecraft:spawn_entity": {
+          "entities": {
+            "spawn_entity": "is:pre_own",
+            "num_to_spawn": 1,
+            "single_use": true,
+            "min_wait_time": 0,
+            "max_wait_time": 0
+          }
+        }
+      },
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "visible": false,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [
+            0.0,
+            0.0
+          ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {}
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      }
+    },
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:exhaustion_values": {
+        "heal": 6,
+        "jump": 0.05,
+        "sprint_jump": 0.2,
+        "mine": 0.005,
+        "attack": 0.1,
+        "damage": 0.1,
+        "walk": 0.0,
+        "sprint": 0.01,
+        "swim": 0.01
+      },
+      "minecraft:player.saturation": {
+        "value": 5
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 20
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.2,
+              -0.1
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.2,
+              -0.1
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:block_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_mob_effect",
+                "subject": "self",
+                "value": "bad_omen"
+              },
+              {
+                "test": "is_in_village",
+                "subject": "self",
+                "value": true
+              }
+            ]
+          },
+          "event": "minecraft:trigger_raid"
+        }
+      }
+    },
+    "events": {
+      "is:start_gui": {
+        "add": {
+          "component_groups": [
+            "is:gui"
+          ]
+        }
+      },
+      "is:trigger_gui": {
+        "add": {
+          "component_groups": [
+            "is:gui"
+          ]
+        }
+      },
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "is:gui"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "player:knockback-0": {
+        "add": {
+          "component_groups": [
+            "player:knockback-0"
+          ]
+        }
+      },
+      "player:knockback-1": {
+        "add": {
+          "component_groups": [
+            "player:knockback-1"
+          ]
+        }
+      },
+      "player:knockback-2": {
+        "add": {
+          "component_groups": [
+            "player:knockback-2"
+          ]
+        }
+      },
+      "player:knockback-3": {
+        "add": {
+          "component_groups": [
+            "player:knockback-3"
+          ]
+        }
+      },
+      "player:knockback-4": {
+        "add": {
+          "component_groups": [
+            "player:knockback-4"
+          ]
+        }
+      },
+      "player:knockback-5": {
+        "add": {
+          "component_groups": [
+            "player:knockback-5"
+          ]
+        }
+      },
+      "player:knockback-6": {
+        "add": {
+          "component_groups": [
+            "player:knockback-6"
+          ]
+        }
+      },
+      "player:knockback-7": {
+        "add": {
+          "component_groups": [
+            "player:knockback-7"
+          ]
+        }
+      },
+      "player:knockback-8": {
+        "add": {
+          "component_groups": [
+            "player:knockback-8"
+          ]
+        }
+      },
+      "player:knockback-9": {
+        "add": {
+          "component_groups": [
+            "player:knockback-9"
+          ]
+        }
+      },
+      "player:knockback-10": {
+        "add": {
+          "component_groups": [
+            "player:knockback-10"
+          ]
+        }
+      },
+      "player:knockback-11": {
+        "add": {
+          "component_groups": [
+            "player:knockback-11"
+          ]
+        }
+      },
+      "player:knockback-12": {
+        "add": {
+          "component_groups": [
+            "player:knockback-12"
+          ]
+        }
+      },
+      "player:knockback-13": {
+        "add": {
+          "component_groups": [
+            "player:knockback-13"
+          ]
+        }
+      },
+      "player:knockback-14": {
+        "add": {
+          "component_groups": [
+            "player:knockback-14"
+          ]
+        }
+      },
+      "player:knockback-15": {
+        "add": {
+          "component_groups": [
+            "player:knockback-15"
+          ]
+        }
+      },
+      "player:knockback-16": {
+        "add": {
+          "component_groups": [
+            "player:knockback-16"
+          ]
+        }
+      },
+      "player:knockback-17": {
+        "add": {
+          "component_groups": [
+            "player:knockback-17"
+          ]
+        }
+      },
+      "player:knockback-18": {
+        "add": {
+          "component_groups": [
+            "player:knockback-18"
+          ]
+        }
+      },
+      "player:knockback-19": {
+        "add": {
+          "component_groups": [
+            "player:knockback-19"
+          ]
+        }
+      },
+      "player:knockback-20": {
+        "add": {
+          "component_groups": [
+            "player:knockback-20"
+          ]
+        }
+      },
+      "player:knockback-21": {
+        "add": {
+          "component_groups": [
+            "player:knockback-21"
+          ]
+        }
+      },
+      "player:knockback-22": {
+        "add": {
+          "component_groups": [
+            "player:knockback-22"
+          ]
+        }
+      },
+      "player:knockback-23": {
+        "add": {
+          "component_groups": [
+            "player:knockback-23"
+          ]
+        }
+      },
+      "player:knockback-24": {
+        "add": {
+          "component_groups": [
+            "player:knockback-24"
+          ]
+        }
+      },
+      "player:knockback-25": {
+        "add": {
+          "component_groups": [
+            "player:knockback-25"
+          ]
+        }
+      },
+      "player:knockback-26": {
+        "add": {
+          "component_groups": [
+            "player:knockback-26"
+          ]
+        }
+      },
+      "player:knockback-27": {
+        "add": {
+          "component_groups": [
+            "player:knockback-27"
+          ]
+        }
+      },
+      "player:knockback-28": {
+        "add": {
+          "component_groups": [
+            "player:knockback-28"
+          ]
+        }
+      },
+      "player:knockback-29": {
+        "add": {
+          "component_groups": [
+            "player:knockback-29"
+          ]
+        }
+      },
+      "player:knockback-30": {
+        "add": {
+          "component_groups": [
+            "player:knockback-30"
+          ]
+        }
+      },
+      "player:knockback-31": {
+        "add": {
+          "component_groups": [
+            "player:knockback-31"
+          ]
+        }
+      },
+      "player:knockback-32": {
+        "add": {
+          "component_groups": [
+            "player:knockback-32"
+          ]
+        }
+      },
+      "player:knockback-33": {
+        "add": {
+          "component_groups": [
+            "player:knockback-33"
+          ]
+        }
+      },
+      "player:knockback-34": {
+        "add": {
+          "component_groups": [
+            "player:knockback-34"
+          ]
+        }
+      },
+      "player:knockback-35": {
+        "add": {
+          "component_groups": [
+            "player:knockback-35"
+          ]
+        }
+      },
+      "player:knockback-36": {
+        "add": {
+          "component_groups": [
+            "player:knockback-36"
+          ]
+        }
+      },
+      "player:knockback-37": {
+        "add": {
+          "component_groups": [
+            "player:knockback-37"
+          ]
+        }
+      },
+      "player:knockback-38": {
+        "add": {
+          "component_groups": [
+            "player:knockback-38"
+          ]
+        }
+      },
+      "player:knockback-39": {
+        "add": {
+          "component_groups": [
+            "player:knockback-39"
+          ]
+        }
+      },
+      "player:knockback-40": {
+        "add": {
+          "component_groups": [
+            "player:knockback-40"
+          ]
+        }
+      },
+      "player:knockback-41": {
+        "add": {
+          "component_groups": [
+            "player:knockback-41"
+          ]
+        }
+      },
+      "player:knockback-42": {
+        "add": {
+          "component_groups": [
+            "player:knockback-42"
+          ]
+        }
+      },
+      "player:knockback-43": {
+        "add": {
+          "component_groups": [
+            "player:knockback-43"
+          ]
+        }
+      },
+      "player:knockback-44": {
+        "add": {
+          "component_groups": [
+            "player:knockback-44"
+          ]
+        }
+      },
+      "player:knockback-45": {
+        "add": {
+          "component_groups": [
+            "player:knockback-45"
+          ]
+        }
+      },
+      "player:knockback-46": {
+        "add": {
+          "component_groups": [
+            "player:knockback-46"
+          ]
+        }
+      },
+      "player:knockback-47": {
+        "add": {
+          "component_groups": [
+            "player:knockback-47"
+          ]
+        }
+      },
+      "player:knockback-48": {
+        "add": {
+          "component_groups": [
+            "player:knockback-48"
+          ]
+        }
+      },
+      "player:knockback-49": {
+        "add": {
+          "component_groups": [
+            "player:knockback-49"
+          ]
+        }
+      },
+      "player:knockback-50": {
+        "add": {
+          "component_groups": [
+            "player:knockback-50"
+          ]
+        }
+      },
+      "player:knockback-51": {
+        "add": {
+          "component_groups": [
+            "player:knockback-51"
+          ]
+        }
+      },
+      "player:knockback-52": {
+        "add": {
+          "component_groups": [
+            "player:knockback-52"
+          ]
+        }
+      },
+      "player:knockback-53": {
+        "add": {
+          "component_groups": [
+            "player:knockback-53"
+          ]
+        }
+      },
+      "player:knockback-54": {
+        "add": {
+          "component_groups": [
+            "player:knockback-54"
+          ]
+        }
+      },
+      "player:knockback-55": {
+        "add": {
+          "component_groups": [
+            "player:knockback-55"
+          ]
+        }
+      },
+      "player:knockback-56": {
+        "add": {
+          "component_groups": [
+            "player:knockback-56"
+          ]
+        }
+      },
+      "player:knockback-57": {
+        "add": {
+          "component_groups": [
+            "player:knockback-57"
+          ]
+        }
+      },
+      "player:knockback-58": {
+        "add": {
+          "component_groups": [
+            "player:knockback-58"
+          ]
+        }
+      },
+      "player:knockback-59": {
+        "add": {
+          "component_groups": [
+            "player:knockback-59"
+          ]
+        }
+      },
+      "player:knockback-60": {
+        "add": {
+          "component_groups": [
+            "player:knockback-60"
+          ]
+        }
+      },
+      "player:knockback-61": {
+        "add": {
+          "component_groups": [
+            "player:knockback-61"
+          ]
+        }
+      },
+      "player:knockback-62": {
+        "add": {
+          "component_groups": [
+            "player:knockback-62"
+          ]
+        }
+      },
+      "player:knockback-63": {
+        "add": {
+          "component_groups": [
+            "player:knockback-63"
+          ]
+        }
+      },
+      "player:knockback-64": {
+        "add": {
+          "component_groups": [
+            "player:knockback-64"
+          ]
+        }
+      },
+      "player:knockback-65": {
+        "add": {
+          "component_groups": [
+            "player:knockback-65"
+          ]
+        }
+      },
+      "player:knockback-66": {
+        "add": {
+          "component_groups": [
+            "player:knockback-66"
+          ]
+        }
+      },
+      "player:knockback-67": {
+        "add": {
+          "component_groups": [
+            "player:knockback-67"
+          ]
+        }
+      },
+      "player:knockback-68": {
+        "add": {
+          "component_groups": [
+            "player:knockback-68"
+          ]
+        }
+      },
+      "player:knockback-69": {
+        "add": {
+          "component_groups": [
+            "player:knockback-69"
+          ]
+        }
+      },
+      "player:knockback-70": {
+        "add": {
+          "component_groups": [
+            "player:knockback-70"
+          ]
+        }
+      },
+      "player:knockback-71": {
+        "add": {
+          "component_groups": [
+            "player:knockback-71"
+          ]
+        }
+      },
+      "player:knockback-72": {
+        "add": {
+          "component_groups": [
+            "player:knockback-72"
+          ]
+        }
+      },
+      "player:knockback-73": {
+        "add": {
+          "component_groups": [
+            "player:knockback-73"
+          ]
+        }
+      },
+      "player:knockback-74": {
+        "add": {
+          "component_groups": [
+            "player:knockback-74"
+          ]
+        }
+      },
+      "player:knockback-75": {
+        "add": {
+          "component_groups": [
+            "player:knockback-75"
+          ]
+        }
+      },
+      "player:knockback-76": {
+        "add": {
+          "component_groups": [
+            "player:knockback-76"
+          ]
+        }
+      },
+      "player:knockback-77": {
+        "add": {
+          "component_groups": [
+            "player:knockback-77"
+          ]
+        }
+      },
+      "player:knockback-78": {
+        "add": {
+          "component_groups": [
+            "player:knockback-78"
+          ]
+        }
+      },
+      "player:knockback-79": {
+        "add": {
+          "component_groups": [
+            "player:knockback-79"
+          ]
+        }
+      },
+      "player:knockback-80": {
+        "add": {
+          "component_groups": [
+            "player:knockback-80"
+          ]
+        }
+      },
+      "player:knockback-81": {
+        "add": {
+          "component_groups": [
+            "player:knockback-81"
+          ]
+        }
+      },
+      "player:knockback-82": {
+        "add": {
+          "component_groups": [
+            "player:knockback-82"
+          ]
+        }
+      },
+      "player:knockback-83": {
+        "add": {
+          "component_groups": [
+            "player:knockback-83"
+          ]
+        }
+      },
+      "player:knockback-84": {
+        "add": {
+          "component_groups": [
+            "player:knockback-84"
+          ]
+        }
+      },
+      "player:knockback-85": {
+        "add": {
+          "component_groups": [
+            "player:knockback-85"
+          ]
+        }
+      },
+      "player:knockback-86": {
+        "add": {
+          "component_groups": [
+            "player:knockback-86"
+          ]
+        }
+      },
+      "player:knockback-87": {
+        "add": {
+          "component_groups": [
+            "player:knockback-87"
+          ]
+        }
+      },
+      "player:knockback-88": {
+        "add": {
+          "component_groups": [
+            "player:knockback-88"
+          ]
+        }
+      },
+      "player:knockback-89": {
+        "add": {
+          "component_groups": [
+            "player:knockback-89"
+          ]
+        }
+      },
+      "player:knockback-90": {
+        "add": {
+          "component_groups": [
+            "player:knockback-90"
+          ]
+        }
+      },
+      "player:knockback-91": {
+        "add": {
+          "component_groups": [
+            "player:knockback-91"
+          ]
+        }
+      },
+      "player:knockback-92": {
+        "add": {
+          "component_groups": [
+            "player:knockback-92"
+          ]
+        }
+      },
+      "player:knockback-93": {
+        "add": {
+          "component_groups": [
+            "player:knockback-93"
+          ]
+        }
+      },
+      "player:knockback-94": {
+        "add": {
+          "component_groups": [
+            "player:knockback-94"
+          ]
+        }
+      },
+      "player:knockback-95": {
+        "add": {
+          "component_groups": [
+            "player:knockback-95"
+          ]
+        }
+      },
+      "player:knockback-96": {
+        "add": {
+          "component_groups": [
+            "player:knockback-96"
+          ]
+        }
+      },
+      "player:knockback-97": {
+        "add": {
+          "component_groups": [
+            "player:knockback-97"
+          ]
+        }
+      },
+      "player:knockback-98": {
+        "add": {
+          "component_groups": [
+            "player:knockback-98"
+          ]
+        }
+      },
+      "player:knockback-99": {
+        "add": {
+          "component_groups": [
+            "player:knockback-99"
+          ]
+        }
+      },
+      "player:knockback-100": {
+        "add": {
+          "component_groups": [
+            "player:knockback-100"
+          ]
+        }
+      }
+    }
+  }
+}

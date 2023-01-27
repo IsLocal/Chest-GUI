@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "is:chest_gui",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/chest_gui"
+			},
+			"geometry": {
+				"default": "geometry.chest_gui"
+			},
+			"render_controllers": [
+				"controller.render.chest_gui"
+			],
+			"spawn_egg": {
+				"base_color": "#543b10",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

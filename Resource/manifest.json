@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Chest GUI Release",
+      "uuid": "6c539317-ad9d-a23c-7a59-3afe34f3259f",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "min_engine_version": [
+        1,
+        17,
+        0
+      ]
+    },
+    "modules": [
+      {
+        "type": "resources",
+        "uuid": "ce50714f-c15d-596e-717c-c406de70f71e",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  }

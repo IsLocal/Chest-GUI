@@ -1,0 +1,75 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"IsLocal"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Chest GUI Release",
+		"description": "",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "cabf2282-05c5-4d86-9882-ce8c7c221b66",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b142eb06-294a-428d-b619-b30694acbc26",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "d2b1fe24-27f3-413d-a757-96c89827a886",
+			"entry": "scripts/index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "6c539317-ad9d-a23c-7a59-3afe34f3259f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

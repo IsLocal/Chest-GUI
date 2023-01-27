@@ -1,0 +1,600 @@
+{
+	"namespace": "chest",
+	"chest_grid_item@common.container_item": {
+		"$item_collection_name": "container_items",
+		"bindings": [
+			{
+				"binding_type": "collection_details",
+				"binding_collection_name": "$item_collection_name",
+				"binding_condition": "once"
+			},
+			{
+				"binding_name": "#item_id_aux",
+				"binding_type": "collection",
+				"binding_collection_name": "$item_collection_name"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#item_id_aux = 13828096))", // Diamond
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"chest_label": {
+		"$new_container_title|default": "$container_title",
+		"text": "$new_container_title"
+	},
+	"small_chest_grid": {
+		"type": "grid",
+		"size": [
+			162,
+			54
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			9,
+			3
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"copper_chest_grid": {
+		"type": "grid",
+		"size": [
+			162,
+			90
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			9,
+			5
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"mine_npc_grid": {
+		"type": "grid",
+		"size": [
+			162,
+			108
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			9,
+			6
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"enchant_npc_grid": {
+		"type": "grid",
+		"size": [
+			72,
+			54
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			4,
+			3
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items",
+		"offset": [
+			100,
+			100
+		],
+		"controls": []
+	},
+	"main_npc_grid": {
+		"type": "grid",
+		"size": [
+			162,
+			108
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			9,
+			1
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"gem_npc_grid": {
+		"type": "grid",
+		"size": [
+			162,
+			108
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			5,
+			1
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"gold_chest_grid": {
+		"type": "grid",
+		"size": [
+			162,
+			162
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			9,
+			9
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"diamond_chest_grid": {
+		"type": "grid",
+		"size": [
+			216,
+			162
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			12,
+			9
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"small_chest_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			"50%"
+		],
+		"offset": [
+			0,
+			12
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"small_chest_grid@chest.small_chest_grid": {
+					"offset": [
+						7,
+						9
+					]
+				}
+			}
+		]
+	},
+	"copper_chest_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			132
+		],
+		"offset": [
+			0,
+			11
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"large_chest_grid@chest.copper_chest_grid": {
+					"offset": [
+						7,
+						10
+					]
+				}
+			}
+		]
+	},
+	"mine_npc_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			132
+		],
+		"offset": [
+			0,
+			11
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"large_chest_grid@chest.mine_npc_grid": {
+					"offset": [
+						7,
+						10
+					]
+				}
+			}
+		]
+	},
+	"enchant_npc_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			1
+		],
+		"offset": [
+			60,
+			11
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"large_chest_grid@chest.enchant_npc_grid": {
+					"offset": [
+						7,
+						10
+					]
+				}
+			},
+			{
+				"paperdoll_render": {
+					"type": "panel",
+					"size": [
+						88,
+						83
+					],
+					"offset": [
+						-116,
+						50
+					],
+					"anchor_to": "centre_middle",
+					"anchor_from": "centre_middle",
+					"controls": [
+						{
+							"backdrop": {
+								"type": "image",
+								"texture": "textures/ui/item_cell",
+								"size": [
+									43,
+									74
+								],
+								"layer": 2,
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"offset": [
+									0,
+									-14
+								],
+								"controls": [
+									{
+										"player_renderer_panel": {
+											"type": "panel",
+											"size": [
+												33,
+												33
+											],
+											"offset": [
+												0,
+												-13
+											],
+											"controls": [
+												{
+													"player_renderer": {
+														"type": "custom",
+														"renderer": "live_player_renderer",
+														"property_bag": {
+															"#look_at_cursor": true
+														},
+														"animation_reset_name": "screen_animation_reset",
+														"anims": [
+															"@common.screen_exit_size_animation_push",
+															"@common.screen_exit_size_animation_pop",
+															"@common.screen_entrance_size_animation_push",
+															"@common.screen_entrance_size_animation_pop"
+														],
+														"layer": 8,
+														"anchor_from": "center",
+														"anchor_to": "center"
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"main_npc_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			132
+		],
+		"offset": [
+			0,
+			11
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"large_chest_grid@chest.main_npc_grid": {
+					"offset": [
+						7,
+						10
+					]
+				}
+			}
+		]
+	},
+	"gem_npc_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			132
+		],
+		"offset": [
+			0,
+			11
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"large_chest_grid@chest.gem_npc_grid": {
+					"offset": [
+						13,
+						10
+					]
+				}
+			}
+		]
+	},
+	"gold_chest_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			132
+		],
+		"offset": [
+			0,
+			11
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"large_chest_grid@chest.gold_chest_grid": {
+					"offset": [
+						7,
+						10
+					]
+				}
+			}
+		]
+	},
+	"diamond_chest_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			132
+		],
+		"offset": [
+			0,
+			11
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"large_chest_grid@chest.diamond_chest_grid": {
+					"offset": [
+						7,
+						10
+					]
+				}
+			}
+		]
+	},
+	"small_root_panel@common.root_panel": {
+		"$chest_panel|default": "chest.small_chest_panel_top_half",
+		"layer": 1,
+		"controls": [
+			{
+				"common_panel@common.common_panel": {}
+			},
+			{
+				"chest_panel": {
+					"type": "panel",
+					"layer": 5,
+					"controls": [
+						{
+							"small_chest_panel_top_half@$chest_panel": {}
+						},
+						{
+							"inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+						},
+						{
+							"hotbar_grid@common.hotbar_grid_template": {}
+						},
+						{
+							"inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+						}
+					]
+				}
+			},
+			{
+				"inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+			},
+			{
+				"gamepad_cursor@common.gamepad_cursor_button": {}
+			}
+		]
+	},
+	"copper_chest_root_panel@small_root_panel": {
+		"size": [
+			176,
+			184
+		],
+		"$chest_panel": "chest.copper_chest_panel_top_half"
+	},
+	"mine_npc_root_panel@small_root_panel": {
+		"size": [
+			176,
+			220
+		],
+		"$chest_panel": "chest.mine_npc_panel_top_half"
+	},
+	"main_npc_root_panel@small_root_panel": {
+		"size": [
+			176,
+			130
+		],
+		"$chest_panel": "chest.main_npc_panel_top_half"
+	},
+	"gem_npc_root_panel@small_root_panel": {
+		"size": [
+			176,
+			130
+		],
+		"$chest_panel": "chest.gem_npc_panel_top_half"
+	},
+	"enchant_npc_root_panel@small_root_panel": {
+		"size": [
+			170,
+			170
+		],
+		"$chest_panel": "chest.enchant_npc_panel_top_half"
+	},
+	"gold_chest_root_panel@small_root_panel": {
+		"size": [
+			176,
+			275
+		],
+		"$chest_panel": "chest.gold_chest_panel_top_half"
+	},
+	"diamond_chest_root_panel@small_root_panel": {
+		"size": [
+			236,
+			275
+		],
+		"$chest_panel": "chest.diamond_chest_panel_top_half"
+	},
+	"small_chest_panel": {
+		"type": "panel",
+		"controls": [
+			{
+				"container_gamepad_helpers@common.container_gamepad_helpers": {}
+			},
+			{
+				"flying_item_renderer@common.flying_item_renderer": {
+					"layer": 11
+				}
+			},
+			{
+				"selected_item_details_factory@common.selected_item_details_factory": {
+					"control_name": "@chest.selected_item_details"
+				}
+			},
+			{
+				"item_lock_notification_factory@common.item_lock_notification_factory": {
+					"control_name": "@common.item_lock_notification"
+				}
+			},
+			{
+				"root_panel@$root_panel": {}
+			}
+		]
+	},
+	"small_chest_screen@common.inventory_screen_common": {
+		"$close_on_player_hurt|default": false,
+		"close_on_player_hurt": "$close_on_player_hurt",
+		"$root_panel|default": "chest.small_root_panel",
+		"$new_container_title|default": "$container_title",
+		"$container_size|default": 27,
+		"variables": [
+			{
+				"requires": "($container_title = 'copper_chest')",
+				"$root_panel": "chest.copper_chest_root_panel",
+				"$container_size": 45
+			},
+			{
+				"requires": "((not ($container_title < 'spaced:')) and ($container_title < 'spacedu')",
+				"$root_panel": "chest.gem_npc_root_panel",
+				"$new_container_title": "($container_title - 'spaced:')",
+				"$container_size": 27
+			},
+			{
+				"requires": "($container_title = 'Warp Mine')",
+				"$root_panel": "chest.mine_npc_root_panel",
+				"$new_container_title": "Select Mine",
+				"$container_size": 54
+			},
+			{
+				"requires": "((not ($container_title < 'single_row:')) and ($container_title < 'single_rowu')",
+				"$root_panel": "chest.main_npc_root_panel",
+				"$new_container_title": "($container_title - 'single_row:')",
+				"$container_size": 9
+			},
+			{
+				"requires": "((not ($container_title < 'double_chest:')) and ($container_title < 'double_chestu')",
+				"$root_panel": "chest.mine_npc_root_panel",
+				"$new_container_title": "($container_title - 'double_chest:')",
+				"$container_size": 54
+			},
+			{
+				"requires": "($container_title = 'Kit Merchant')",
+				"$root_panel": "chest.enchant_npc_root_panel",
+				"$new_container_title": "Merchant",
+				"$container_size": 108
+			},
+			{
+				"requires": "($container_title = 'gold_chest')",
+				"$root_panel": "chest.gold_chest_root_panel",
+				"$new_container_title": "tile.metalchest:gold_chest.name",
+				"$container_size": 81
+			},
+			{
+				"requires": "$desktop_screen",
+				"$screen_content": "chest.small_chest_panel",
+				"$screen_bg_content": "common.screen_background"
+			},
+			{
+				"requires": "$pocket_screen",
+				"$container_title": "$new_container_title",
+				"$screen_content": "pocket_containers.panel"
+			}
+		]
+	}
+}

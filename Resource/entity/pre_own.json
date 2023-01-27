@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "is:pre_own",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/nb"
+			},
+			"geometry": {
+				"default": "geometry.pre_own"
+			},
+			"render_controllers": [
+				"controller.render.pre_own"
+			],
+			"spawn_egg": {
+				"base_color": "#7b3918",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}
