@@ -1,6 +1,6 @@
 # Chest-GUI
 ![logo](icon.png)  
-This is my attempt to create a good way to make chest guis on bedrock edition and it may be horribly buggy
+This is my attempt to create a good way to make chest guis on bedrock edition 
 
 ## Features
 * Disregards mobile ui players completley (good thing)
@@ -30,10 +30,10 @@ world.events.beforeChat.subscribe((data) => {
 Here is a example of how one the many ways to define a simple GUI 
 
 ```js
-import { ChestGUI } from "./chestGUI.js";
+import { Page } from "./chestGUI.js";
 
 //PLEASE NOTE that when setting slots anywhere put "minecraft:" or the items namespace or everything will die
-const gui = new ChestGUI()
+const gui = new Page()
     .setTitle(`My Gui`)
     .setFill({typeId: `minecraft:stained_glass`, data: 15})
     .setSlot(12, `input`)
@@ -46,9 +46,9 @@ const gui = new ChestGUI()
 Some more examples are using the ChestGUI.pattern method which uses a pattern and key to make slots or using the page methods which takes a page class or literal object
 
 ```js
-import { ChestGUI } from "./chestGUI.js";
+import { Page } from "./chestGUI.js";
 
-const gui = new ChestGUI()
+const gui = new Page()
 gui.setTitle(`My GUI`)
 gui.setFill({typeId: `minecraft:stained_glass`, data: 15})
 gui.pattern([0,0], [
@@ -63,9 +63,9 @@ gui.pattern([0,0], [
 ```
 
 ```js
-import { ChestGUI } from "./chestGUI.js";
+import { Page } from "./chestGUI.js";
 
- const gui = new ChestGUI()
+ const gui = new Page()
 
 gui.page(true, {
     title: `My gui`,
@@ -90,7 +90,7 @@ The examples above are just examples of creating layouts now here are some examp
 below is a example that creates a gui with a crafting table pattern that warns to the console when a slot with the type of  input is interacted with
 
 ```js
-const gui = new ChestGUI()
+const gui = new Page()
 .setTitle(`double_chest:Crafting Table`)
 .pattern([1, 1], [
     `000___`,
@@ -112,7 +112,7 @@ gui.on(`input`, (data) => {
 The gui below is a double chest with a bunch of random slots of varied types. When any of them are interacted with, no matter the type, a message warns consoles to be careful. If you look at slot 35, it has an exe property which will run when that specific slot is interacted with; this function will kill the player and close the gui.
 
 ```js
-const gui = new ChestGUI()
+const gui = new Page()
 .setTitle(`double_chest:Crafting Table`)
 .setSlots({
     0: {type: `button`, item: {typeId: `minecraft:barrier`}},
