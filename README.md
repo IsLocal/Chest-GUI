@@ -24,7 +24,6 @@ world.events.beforeChat.subscribe((data) => {
 ```
 
 Below are some simple examples for more practical examples please look in the index.js file in the behavior pack
-while you can download this as a addon you can also just add the chestGUI.js file to your own pack without any error 
 
 ## Layout Creation Examples
 
