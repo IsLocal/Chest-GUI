@@ -27,7 +27,7 @@ Below are some simple examples for more practical examples please look in the in
 
 ## Layout Creation Examples
 
-Here is a example of how one the many ways to define a simple GUI
+Here is a example of how one the many ways to define simple gui pages which are the same as the ChestGUI class but meant to be used to make reusable and predefined pages. Any methods that can be used on pages can be used on chest gui classes
 
 ```js
 import { Page } from "./chestGUI.js";
